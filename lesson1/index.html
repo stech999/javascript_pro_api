@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Расписание занятий</title>
+</head>
+
+<body>
+
+    <div class="content">
+        <h1>Расписание занятий</h1>
+        <div class="menu">
+            <div class="title-menu">Занятие</div>
+            <div class="title-menu">Время</div>
+            <div class="title-menu">Макс-ное кол-во участников</div>
+            <div class="title-menu">Текущее кол-во участников</div>
+            <div class="title-menu">Функции</div>
+        </div>
+
+        <div id="viewSchedule" class="schedule"></div>
+
+        <template class="classSchedule">
+            <div id="title" class="schedule-menu"></div>
+            <div id="time" class="schedule-menu"></div>
+            <div id="maxCountVisitors" class="schedule-menu"></div>
+            <div id="recordVisitors" class="schedule-menu"></div>
+            <div class="schedule-menu">
+                <div class="schedule-btn">
+                    <button id="recordBtn" class="button btn-rec">Записаться</button>
+                    <button id="removeBtn" class="button btn-rem">Отменить запись</button>
+                </div>
+            </div>
+        </template>
+    </div>
+
+    <script src="./db.json"></script>
+    <script type="module" src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+[
+    {
+        "id": "recordBtn1",
+        "title": "Шахматы",
+        "time": "10-11",
+        "maxCountVisitors": 10,
+        "recordVisitors": 7
+    },
+    {
+        "id": "recordBtn2",
+        "title": "Волейбол",
+        "time": "12-13",
+        "maxCountVisitors": 12,
+        "recordVisitors": 9
+    },
+    {
+        "id": "recordBtn3",
+        "title": "Мини-футбол",
+        "time": "14-15",
+        "maxCountVisitors": 10,
+        "recordVisitors": 6
+    },
+    {
+        "id": "recordBtn4",
+        "title": "Йога",
+        "time": "16-17",
+        "maxCountVisitors": 2,
+        "recordVisitors": 2
+    },
+    {
+        "id": "recordBtn5",
+        "title": "Баскетбол",
+        "time": "19-20",
+        "maxCountVisitors": 2,
+        "recordVisitors": 1
+    }
+]

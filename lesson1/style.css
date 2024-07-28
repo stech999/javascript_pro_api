@@ -1,0 +1,61 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu {
+    display: flex;
+}
+
+.title-menu {
+    display: flex;
+    width: 130px;
+    height: 40px;
+    justify-content: center;
+    border: 1px solid;
+    align-items: center;
+    padding: 5px 10px 5px 10px;
+    background-color: beige;
+}
+
+.schedule {
+    display: flex;
+    width: 760px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.schedule-menu {
+    display: flex;
+    width: 150px;
+    padding: 5px 0 5px 0;
+    justify-content: center;
+    border: 1px solid;
+    align-items: center;
+}
+
+.schedule-btn {
+    padding-left: 10px;
+}
+
+.btn-rem {
+    width: 130px;
+}
+
+.btn-rec {
+    width: 130px;
+}
+
+.btn-rem:hover {
+    background-color: #ff6868;
+}
+
+.btn-rec:hover {
+    background-color: #82f182;
+}
+
+.button {
+    cursor: pointer;
+}
