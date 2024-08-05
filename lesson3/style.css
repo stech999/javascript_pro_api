@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #cecece;
+    padding: 10px;
+}
+
+.viewPhoto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.photo {
+    width: 500px;
+    padding: 10px 0px 10px 0px;
+}
+
+.contentName {
+    font-size: 25px;
+}
+
+.contentLike {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 26px;
+}
+
+.contentPhoto {
+    display: flex;
+    justify-content: center;
+}
